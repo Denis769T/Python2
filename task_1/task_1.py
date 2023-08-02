@@ -10,5 +10,4 @@ numbers=[0]*num3
 for i in range(0,num3):
     numbers[i]=num1
     num1=num1+num2
-    i+=1
 print(*numbers, sep=", ")#вывод списка 
